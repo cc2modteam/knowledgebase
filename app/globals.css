@@ -1,0 +1,32 @@
+:root {
+	--font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+		'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+		'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+	--color-gray: #6e768166;
+	--color-black: #000000;
+	--color-white: #ffffff;
+	--color-background: #292929;
+	--color-link: #0089c7;
+	--color-link-hover: #a2dffb;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	max-width: 100vw;
+	background: url(../public/Images/CC2-Apertura-2.webp) no-repeat white;
+	background-attachment: fixed;
+	background-position: left;
+	background-size: cover;
+}
+
+main {
+	height: 100vh;
+}
