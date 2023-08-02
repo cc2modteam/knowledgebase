@@ -1,0 +1,64 @@
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 97.5vh;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	height: 97.5vh;
+	font-weight: 600;
+	padding: 2rem;
+	row-gap: 1rem;
+	max-width: 60vw;
+	min-width: 20vw;
+	backdrop-filter: blur(30px);
+}
+
+.description article h2 {
+	line-height: 5rem;
+}
+
+.description article p {
+	line-height: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 2;
+	height: 100%;
+	padding: 2rem;
+	row-gap: 1rem;
+	max-width: 60vw;
+	min-width: 20vw;
+	word-wrap: break-word;
+}
+
+.description a {
+	color: var(--color-link);
+	text-decoration: none;
+	text-shadow: 1px 1px black;
+}
+
+.description a:hover {
+	color: var(--color-link-hover);
+	text-decoration: underline;
+}
+
+.description dt {
+	display: list-item;
+	margin-left: 2.5rem;
+	padding: 0.3rem 0;
+	list-style-type: disc;
+}
+
+.description dd {
+	display: list-item;
+	margin-left: 3.5rem;
+	padding: 0.2rem 0;
+	list-style-type: circle;
+}
